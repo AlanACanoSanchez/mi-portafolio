@@ -45,7 +45,7 @@ const Navbar = () => {
                 onClick={() => i18n.changeLanguage("es")}
                 className="px-2 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-blue-200 dark:hover:bg-blue-500 transition"
             >
-                🇪🇸
+                🇲🇽
             </button>
             <button
                 onClick={() => i18n.changeLanguage("en")}

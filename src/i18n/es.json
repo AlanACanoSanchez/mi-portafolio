@@ -1,7 +1,7 @@
 {
     "home": "Inicio",
     "about_title": "Sobre mí",
-    "tech_stack": "Tech Stack",
+    "tech_stack": "Tecnologías",
     "projects": "Proyectos",
     "certifications": "Certificaciones",
     "contact": "Contacto",
@@ -9,6 +9,14 @@
     "intro_subtitle": "Ingeniero en Datos e Inteligencia Organizacional",
     "intro_details": "Analista de Datos | Programador",
     "intro_bio": "Soy una persona apasionada por encontrar respuestas en los datos y darles sentido a través de la visualización. Disfruto programar y enfrentar nuevos retos. Me encanta aprender algo nuevo cada día y crear soluciones que resuelvan problemas reales.\n\nCreo firmemente que los datos no solo cuentan historias, también impulsan decisiones. ¿Quieres saber cómo transformar tus datos en decisiones? Será un gusto conectar contigo.",
-    "intro_cta": "Contáctame"
+    "intro_cta": "Contáctame",
+    "about_text": "Soy una persona tranquila y curiosa, siempre con ganas de aprender algo nuevo. Me apasiona el análisis de datos y la programación, pero también valoro mucho el equilibrio con otras áreas de mi vida.\n\nDisfruto hacer ejercicio, practicar deportes y estar en contacto con la naturaleza. Me encanta pasar tiempo con mi familia y amigos, compartir momentos y disfrutar de las pequeñas cosas. Además, soy fan del universo de los superhéroes; crecí con ellos y me siguen inspirando.\n\nMe considero responsable y comprometido con lo que hago. Siempre busco crecer, enfrentar nuevos retos y aportar valor en cada proyecto en el que participo.",
+    "tech_data": "Análisis de Datos",
+    "tech_backend": "Backend y Bases de Datos",
+    "tech_frontend": "Frontend",
+    "tech_tools": "Herramientas",
+    "viewCertificate": "Ver Certificado",
+    "showMore": "Ver más",
+    "showLess": "Ver menos"
   }
   
