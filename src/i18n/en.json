@@ -17,6 +17,13 @@
     "tech_tools": "Tools",
     "viewCertificate": "View Certificate",
     "showMore": "Show more",
-    "showLess": "Show less"
+    "showLess": "Show less",
+    "contactTalk": "Let's talk!",
+    "contactdescription": "It will be a pleasure to connect with you.",
+    "contactnamme": "Full Name",
+    "contactemail": "Email",
+    "contactmessaje": "Messaje",
+    "contactsubmit": "Submit",
+    "contactosubmitmessaje": "Messaje sent success"
   }
   

@@ -17,6 +17,13 @@
     "tech_tools": "Herramientas",
     "viewCertificate": "Ver Certificado",
     "showMore": "Ver más",
-    "showLess": "Ver menos"
+    "showLess": "Ver menos",
+    "contactTalk": "¡Hablemos!",
+    "contactdescription": "Será un gusto conectar contigo.",
+    "contactnamme": "Nombre completo",
+    "contactemail": "Correo electrónico",
+    "contactmessaje": "Mensaje",
+    "contactsubmit": "Enviar",
+    "contactosubmitmessaje": "Mensaje enviado con éxito"
   }
   
