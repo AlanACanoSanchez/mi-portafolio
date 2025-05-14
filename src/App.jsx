@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import Home from "./sections/Home";
 import About from "./sections/About"
 import TechStack from "./sections/TechStack";
+import Projects from "./sections/Projects";
 import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 
@@ -28,10 +29,7 @@ function App() {
         <TechStack/>
 
         {/* Proyectos */}
-        <section id="projects" className="py-32 bg-gray-100 dark:bg-gray-800 text-center">
-          <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-6">{t("projects")}</h2>
-          <p className="text-gray-600 dark:text-gray-300">Aquí irán tus proyectos destacados</p>
-        </section>
+        <Projects/>
 
         {/* Certificaciones */}
         <Certifications/>

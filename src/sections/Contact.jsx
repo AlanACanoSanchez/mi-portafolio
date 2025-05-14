@@ -37,7 +37,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-6 bg-white dark:bg-gray-900">
+          <section 
+        id="contact"
+        className="py-20 px-6 bg-white dark:bg-gray-900 shadow-md dark:shadow-none"
+      >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Texto + Redes */}

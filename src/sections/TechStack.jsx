@@ -8,7 +8,6 @@ const technologies = [
   { name: 'Matplotlib', icon: 'devicon-matplotlib-plain' , needsBackground: true},
   { name: 'React', icon: 'devicon-react-original' , needsBackground: true},
   { name: 'Vite', icon: 'devicon-vitejs-plain', needsBackground: true },
-  { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-plain', needsBackground: true },
   { name: 'JavaScript', icon: 'devicon-javascript-plain', needsBackground: true },
   { name: 'Node.js', icon: 'devicon-nodejs-plain', needsBackground: true },
   { name: 'Express.js', icon: 'devicon-express-original' , needsBackground: true},
@@ -22,9 +21,10 @@ const TechStack = () => {
   const { t } = useTranslation();
 
   return (
-    <section 
-        id="techstack"
-        className="py-20 px-6 bg-white dark:bg-gray-900 transition-colors">
+        <section 
+          id="techstack"
+          className="py-20 px-6 bg-white dark:bg-gray-900 transition-colors shadow-md dark:shadow-none"
+        >
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white">
         {t("tech_stack")}
       </h2>

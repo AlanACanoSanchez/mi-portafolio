@@ -10,10 +10,10 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="about"
-      className="py-24 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6"
-    >
+      <section
+        id="about"
+        className="py-24 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 shadow-md dark:shadow-none"
+      >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         {/* Texto a la izquierda */}
         <div>

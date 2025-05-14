@@ -31,7 +31,10 @@ const certifications = [
     };
   
     return (
-      <section id="certifications" className="py-24 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6">
+              <section 
+          id="certifications"
+          className="py-24 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 shadow-md dark:shadow-none"
+        >
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">{t("certifications")}</h2>
   

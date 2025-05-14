@@ -5,10 +5,10 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center justify-center px-6 py-20 bg-white dark:bg-gray-900 transition-colors"
-    >
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center px-6 py-20 bg-white dark:bg-gray-900 transition-colors"
+      >
       <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-6xl gap-10">
         {/* Imagen */}
         <div className="flex justify-center md:justify-start">

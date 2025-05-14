@@ -24,6 +24,19 @@
     "contactemail": "Correo electrónico",
     "contactmessaje": "Mensaje",
     "contactsubmit": "Enviar",
-    "contactosubmitmessaje": "Mensaje enviado con éxito"
+    "contactosubmitmessaje": "Mensaje enviado con éxito",
+    "projects_private": "Repositorio privado",
+    "view_demo": "Ver demo",
+    "view_code": "Ver código",
+    "project_X": "Twitter/X Metrics Analysis",
+    "project_X_description": "Diseñé e implementé una solución full stack para monitorear perfiles en Twitter/X. Automatizamos la recolección de métricas mediante Selenium, analizamos el sentimiento de los comentarios con PySentimiento y desarrollamos una interfaz en React con backend en Node.js. Toda la información fue almacenada en MySQL para su posterior visualización y análisis.",
+    "project_radio": "Monitoreo de Menciones en Estaciones de Radio",
+    "project_radio_description": "Desarrollé un sistema automatizado que transcribe grabaciones de estaciones de radio, detecta menciones específicas y analiza su tono. Implementé la lógica en Python utilizando modelos de sentimiento y almacené los datos en MySQL. El sistema cuenta con una interfaz en Flask para iniciar grabaciones y consultar las menciones detectadas.",
+    "project_defensive": "Análisis de Datos Deportivos y Visualización",
+    "project_defensive_description": "Participé en el ITAM Sports Analytics Hackathon, realizando un análisis descriptivo del rendimiento defensivo en la Eurocopa 2024. Desarrollé un dashboard interactivo con React JS para mostrar estadísticas clave de forma clara e intuitiva.",
+    "project_cancunfc": "Sistema de Análisis Financiero y Operativo para Cancún FC",
+    "project_cancunfc_description": "Diseñé e implementé un sistema completo para el análisis de datos financieros y operativos del club Cancún FC. Incluyó la creación de un almacén de datos, un proceso ETL y una API en Node.js. Los datos se visualizan mediante un dashboard desarrollado en React JS."
+
+
   }
   
