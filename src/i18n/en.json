@@ -35,6 +35,10 @@
     "project_defensive": "Sports Data Analysis & Visualization",
     "project_defensive_description": "I participated in the ITAM Sports Analytics Hackathon, conducting a descriptive analysis of defensive performance during Euro 2024. I built an interactive dashboard using React JS to present key statistics in a clear and intuitive way.",
     "project_cancunfc": "Financial and Operational Analysis System for Cancún FC",
-    "project_cancunfc_description": "I designed and implemented a comprehensive system for analyzing financial and operational data of the Cancún FC football club. It included the creation of a data warehouse, a complete ETL process, and an API built with Node.js. The data is visualized through a custom dashboard built in React JS."
+    "project_cancunfc_description": "I designed and implemented a comprehensive system for analyzing financial and operational data of the Cancún FC football club. It included the creation of a data warehouse, a complete ETL process, and an API built with Node.js. The data is visualized through a custom dashboard built in React JS.",
+    "certificate1":"Virtual Environments with Anaconda and Jupyter",
+    "certificate2":"Data Science Environment with Jupyter Notebooks and Anaconda",
+    "certificate3":"Understanding Data Visualization",
+    "certificate4":"Cleaning Data in Python"
   }
   

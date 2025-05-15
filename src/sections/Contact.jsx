@@ -5,6 +5,8 @@ import { FaGithub, FaLinkedin, FaFileAlt, FaCheckCircle  } from 'react-icons/fa'
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+
+  const { i18n } = useTranslation();
   const form = useRef();
   const { t } = useTranslation();
   const [statusMessage, setStatusMessage] = useState('');
@@ -52,13 +54,17 @@ const Contact = () => {
             {t("contactdescription")}
           </p>
           <div className="flex gap-6 text-3xl text-blue-600 dark:text-blue-400">
-            <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Alan4CS" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/alan-arturo-cano-sanchez-511855361" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="/tu-cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href={i18n.language === 'es' ? '/cv_alan.pdf' : '/cv_alan_ingles.pdf'}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFileAlt />
             </a>
           </div>

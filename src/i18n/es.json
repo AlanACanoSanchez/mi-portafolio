@@ -35,8 +35,10 @@
     "project_defensive": "Análisis de Datos Deportivos y Visualización",
     "project_defensive_description": "Participé en el ITAM Sports Analytics Hackathon, realizando un análisis descriptivo del rendimiento defensivo en la Eurocopa 2024. Desarrollé un dashboard interactivo con React JS para mostrar estadísticas clave de forma clara e intuitiva.",
     "project_cancunfc": "Sistema de Análisis Financiero y Operativo para Cancún FC",
-    "project_cancunfc_description": "Diseñé e implementé un sistema completo para el análisis de datos financieros y operativos del club Cancún FC. Incluyó la creación de un almacén de datos, un proceso ETL y una API en Node.js. Los datos se visualizan mediante un dashboard desarrollado en React JS."
-
-
+    "project_cancunfc_description": "Diseñé e implementé un sistema completo para el análisis de datos financieros y operativos del club Cancún FC. Incluyó la creación de un almacén de datos, un proceso ETL y una API en Node.js. Los datos se visualizan mediante un dashboard desarrollado en React JS.",
+    "certificate1":"Entornos Virtuales con Anaconda y Jupyter",
+    "certificate2":"Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda",
+    "certificate3":"Comprensión de la visualización de datos",
+    "certificate4":"Limpieza de datos en Python"
   }
   

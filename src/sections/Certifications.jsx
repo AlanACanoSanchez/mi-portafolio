@@ -1,18 +1,31 @@
 import React, { useState } from 'react';
 import certificate1 from "../assets/entorno_virtuales_anaconda_jupyter.png";
 import certificate2 from "../assets/ciencia_datos_jupyternotebooks_anaconda.png";
+import certificate3 from "../assets/understanding_data_visualization.png";
+import certificate4 from "../assets/cleaning_data.png";
+
 import { useTranslation } from "react-i18next";
 
 const certifications = [
     {
-      title: 'Entornos Virtuales con Anaconda y Jupyter',
+      title: "certificate1",
       image: certificate1,
       link: 'https://platzi.com/p/cs4lan01/curso/10927-course/diploma/detalle/',
     },
     {
-      title: 'Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda',
+      title: "certificate2",
       image: certificate2,
       link: 'https://platzi.com/p/cs4lan01/curso/2434-course/diploma/detalle/',
+    },
+    {
+      title: "certificate3",
+      image: certificate3,
+      link: 'https://www.datacamp.com/completed/statement-of-accomplishment/course/2c50a91219c10ba7dc2bdf35149b08f47bdc0108',
+    },
+    {
+      title: "certificate4",
+      image: certificate4,
+      link: 'https://www.datacamp.com/completed/statement-of-accomplishment/course/7be44a69164c3ce3e8bffb7aeed9c201e72a4b40',
     },
     // Puedes seguir agregando más aquí
   ];
@@ -47,7 +60,7 @@ const certifications = [
                   className="w-full h-48 object-cover transform hover:scale-105 transition-transform duration-300"
                 />
                 <div className="p-6 flex flex-col flex-grow justify-between">
-                  <h3 className="text-xl font-semibold mb-4 text-center">{cert.title}</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-center">{t(cert.title)}</h3>
                   <a
                     href={cert.link}
                     target="_blank"
