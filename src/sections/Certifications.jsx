@@ -3,6 +3,7 @@ import certificate1 from "../assets/entorno_virtuales_anaconda_jupyter.png";
 import certificate2 from "../assets/ciencia_datos_jupyternotebooks_anaconda.png";
 import certificate3 from "../assets/understanding_data_visualization.png";
 import certificate4 from "../assets/cleaning_data.png";
+import certificate5 from "../assets/curso-powerbi.png";
 
 import { useTranslation } from "react-i18next";
 
@@ -26,6 +27,11 @@ const certifications = [
       title: "certificate4",
       image: certificate4,
       link: 'https://www.datacamp.com/completed/statement-of-accomplishment/course/7be44a69164c3ce3e8bffb7aeed9c201e72a4b40',
+    },
+        {
+      title: "certificate5",
+      image: certificate5,
+      link: 'https://platzi.com/p/cs4lan01/curso/10200-course/diploma/detalle/',
     },
     // Puedes seguir agregando más aquí
   ];

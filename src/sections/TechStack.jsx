@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import powerbiLogo from '../assets/icono-powerbi.png';
 
 const technologies = [
   { name: 'Python', icon: 'devicon-python-plain', needsBackground: true },
@@ -14,6 +15,7 @@ const technologies = [
   { name: 'Postman', icon: 'devicon-postman-plain' , needsBackground: true},
   { name: 'MySQL', icon: 'devicon-mysql-plain' , needsBackground: true},
   { name: 'GitHub', icon: 'devicon-github-plain', needsBackground: true },
+  { name: 'Power BI', image: powerbiLogo, needsBackground: true, isImage: true }
 ];
 
 const TechStack = () => {
@@ -28,20 +30,29 @@ const TechStack = () => {
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white">
         {t("tech_stack")}
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-        {technologies.map((tech) => (
-          <div key={tech.name} className="flex flex-col items-center">
-            <i
-              className={`${tech.icon} text-4xl ${
-                tech.needsBackground ? 'bg-white p-2 rounded-full shadow-md' : ''
-              }`}
-            ></i>
-            <span className="mt-2 text-center text-gray-700 dark:text-gray-200">
-              {tech.name}
-            </span>
-          </div>
-        ))}
-      </div>
+<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+  {technologies.map((tech) => (
+    <div key={tech.name} className="flex flex-col items-center">
+      {tech.isImage ? (
+        <img
+          src={tech.image}
+          alt={tech.name}
+          className="w-12 h-12 object-contain bg-white p-2 rounded-full shadow-md"
+        />
+      ) : (
+        <i
+          className={`${tech.icon} text-4xl ${
+            tech.needsBackground ? 'bg-white p-2 rounded-full shadow-md' : ''
+          }`}
+        ></i>
+      )}
+      <span className="mt-2 text-center text-gray-700 dark:text-gray-200">
+        {tech.name}
+      </span>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 };
