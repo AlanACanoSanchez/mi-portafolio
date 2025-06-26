@@ -5,6 +5,7 @@ import scrapping_x from '../assets/scrapping_x.png';
 import radio_monitoring from '../assets/radio_monitoring.png';
 import euro_dashboard from '../assets/euro_dashboard.png';
 import cancun_fc_dashboard from '../assets/cancun_fc_dashboard.png';
+import analisis_ecommerce from '../assets/analisis_ecommerce.png';
 
 const projects = [
   {
@@ -42,6 +43,15 @@ const projects = [
     code: null,
     demo: null,
     private: true,
+  },
+  {
+    title: "project_analisisecommerce",
+    description: "project_analisisecommerce_description",
+    technologies: ['Python','Pandas','SQL Server','Power BI'],
+    image: analisis_ecommerce,
+    code: null,
+    demo: 'https://github.com/AlanACanoSanchez/analisis-ecommerce',
+    private: false,
   }
 ];
 
