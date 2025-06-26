@@ -5,7 +5,7 @@ import scrapping_x from '../assets/scrapping_x.png';
 import radio_monitoring from '../assets/radio_monitoring.png';
 import euro_dashboard from '../assets/euro_dashboard.png';
 import cancun_fc_dashboard from '../assets/cancun_fc_dashboard.png';
-import analisis_ecommerce from '../assets/analisis_ecommerce.png';
+import analisis_ecommerce from '../assets/analisis-ecommerce_dashboard.png';
 
 const projects = [
   {
