@@ -6,6 +6,8 @@ import radio_monitoring from '../assets/radio_monitoring.png';
 import euro_dashboard from '../assets/euro_dashboard.png';
 import cancun_fc_dashboard from '../assets/cancun_fc_dashboard.png';
 import analisis_ecommerce from '../assets/analisis-ecommerce_dashboard.png';
+import analisis_sass_revenue_analytics from '../assets/dashboard_sass-revenue-analytics.png'
+
 
 const projects = [
   {
@@ -51,6 +53,15 @@ const projects = [
     image: analisis_ecommerce,
     code: null,
     demo: 'https://github.com/AlanACanoSanchez/analisis-ecommerce',
+    private: false,
+  },
+  {
+    title: "project_analisisassrevenue",
+    description: "project_analisisassrevenue_description",
+    technologies: ['Python','Pandas','PySpark','Power BI'],
+    image: analisis_sass_revenue_analytics,
+    code: null,
+    demo: 'https://github.com/AlanACanoSanchez/saas-revenue-analytics',
     private: false,
   }
 ];

@@ -38,6 +38,8 @@
     "project_cancunfc_description": "Diseñé e implementé un sistema completo para el análisis de datos financieros y operativos del club Cancún FC. Incluyó la creación de un almacén de datos, un proceso ETL y una API en Node.js. Los datos se visualizan mediante un dashboard desarrollado en React JS.",
     "project_analisisecommerce": "Análisis de Ventas de E-commerce",
     "project_analisisecommerce_description": "Utilicé Python para procesar datos de ventas de una tienda online y Power BI para construir un dashboard con KPIs clave, análisis temporal, ranking de clientes, productos y países. Se integró también un mapa interactivo de ventas.",
+    "project_analisisassrevenue": "Análisis de Ingresos y Cancelaciones para una Empresa SaaS",
+    "project_analisisassrevenue_description":"Proyecto de análisis de datos enfocado en comprender los ingresos mensuales, el comportamiento de cancelación (churn) y las razones detrás de la pérdida de clientes en una empresa SaaS. Incluye procesamiento con PySpark, limpieza de datos en Python y visualización en Power BI mediante un modelo dimensional.",
     "certificate1":"Entornos Virtuales con Anaconda y Jupyter",
     "certificate2":"Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda",
     "certificate3":"Comprensión de la visualización de datos",
